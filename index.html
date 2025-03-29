@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eid Mubarak!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="background-container">
+        <img id="backgroundImage" src="eid_background.jpg" alt="Eid Mubarak Background">
+        <div class="blur-overlay"></div>
+    </div>
+
+    <header>
+        <h1 class="animated-text">Eid Mubarak! <i class="fas fa-star star-icon"></i></h1>
+    </header>
+
+    <main>
+        <!-- Include this back -->
+        <div class="eid-popup-blur" id="eidPopupBlur">
+            <div class="eid-popup" id="eidPopup">
+                <p class="animated-text">Eid Mubarak! May Allah bless you and your family. 🌙🎉 <i
+                        class="fas fa-fireworks fireworks-icon"></i></p>
+                <button id="closePopup" class="popup-button">Close</button>
+            </div>
+        </div>
+
+        <button class="salami-button animated-button" id="salamiButton">
+            Give Salami!
+            <span class="eid-icon"></span>
+        </button>
+
+        <div class="qr-code-container" id="qrCodeContainer">
+            <img src="qr_code.png" alt="bKash QR Code">
+            <p>bKash Account: 01943719093</p>
+        </div>
+
+        <!-- Fireworks effect container -->
+        <div class="fireworks-container"></div>
+        <!-- Stars, moon, and lantern animations -->
+        <div class="stars"></div>
+        <div class="moon"></div>
+        <div class="lanterns">
+            <div class="lantern"></div>
+            <div class="lantern"></div>
+            <div class="lantern"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>May this Eid bring you joy, peace, and blessings! 🌙✨ Wishing you a very Happy Eid! 🎉</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
